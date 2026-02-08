@@ -2,7 +2,7 @@
 
 **The Cape** is a Minecraft Bedrock Edition Addon that adds a powerful new item: **The Cape**. When held, this item grants the player **Creative Flight** capabilities, **Jetpack mechanics**, and **Super Speed**, allowing for rapid traversal of the world in Survival mode.
 
-![Banner](https://via.placeholder.com/800x200?text=The+Cape+Addon)
+![The Cape](thecape-logo.png)
 
 ## 🚀 Features
 
