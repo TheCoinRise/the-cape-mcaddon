@@ -1,0 +1,105 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "minecraft:player",
+            "is_spawnable": false,
+            "is_summonable": false,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "cape:flight_enabled": {
+                "minecraft:abilities": {
+                    "walk_speed": 0.1,
+                    "fly_speed": 0.4,
+                    "may_fly": true
+                },
+                "minecraft:can_fly": {
+                    "value": true
+                }
+            }
+        },
+        "components": {
+            "minecraft:experience_reward": {
+                "on_death": "query.last_hit_by_player ? Math.Random(6,7) : 0"
+            },
+            "minecraft:type_family": {
+                "family": [ "player" ]
+            },
+            "minecraft:is_hidden_when_invisible": {},
+            "minecraft:loot": {
+                "table": "loot_tables/entities/player.json"
+            },
+            "minecraft:collision_box": {
+                "width": 0.6,
+                "height": 1.8
+            },
+            "minecraft:can_climb": {},
+            "minecraft:movement": {
+                "value": 0.1
+            },
+            "minecraft:hurt_on_condition": {
+                "damage_conditions": [
+                    {
+                        "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+                        "cause": "lava",
+                        "damage_per_tick": 4
+                    }
+                ]
+            },
+            "minecraft:movement.jump": {
+                "jump_delay": 0
+            },
+            "minecraft:movement.basic": {},
+            "minecraft:nameable": {
+                "always_show": true,
+                "allow_name_tag_renaming": false
+            },
+            "minecraft:breathable": {
+                "total_supply": 15,
+                "suffocate_time": 0
+            },
+            "minecraft:health": {
+                "value": 20,
+                "max": 20
+            },
+            "minecraft:inventory": {
+                "container_type": "inventory",
+                "inventory_size": 36,
+                "private": false
+            },
+            "minecraft:ui_profile": {
+                "value": "player"
+            },
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:block_climber": {},
+            "minecraft:environment_sensor": {
+                "triggers": {
+                    "filters": {
+                        "test": "has_mob_effect",
+                        "subject": "self",
+                        "value": "bad_omen"
+                    },
+                    "event": "minecraft:trigger_raid"
+                }
+            }
+        },
+        "events": {
+            "cape:enable_flight": {
+                "add": {
+                    "component_groups": [ "cape:flight_enabled" ]
+                }
+            },
+            "cape:disable_flight": {
+                "remove": {
+                    "component_groups": [ "cape:flight_enabled" ]
+                }
+            }
+        }
+    }
+}

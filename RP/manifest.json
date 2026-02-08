@@ -1,0 +1,17 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "The Cape RP",
+        "description": "Resource Pack for The Cape Addon",
+        "uuid": "11223344-5566-7788-99aa-bbccddeeff00",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 60]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "aabbccdd-eeff-0011-2233-445566778899",
+            "version": [1, 0, 0]
+        }
+    ]
+}

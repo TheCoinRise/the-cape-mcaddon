@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "cape:the_cape",
+            "category": "Equipment"
+        },
+        "components": {
+            "minecraft:icon": "the_cape",
+            "minecraft:render_offsets": "apple"
+        }
+    }
+}
