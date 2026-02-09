@@ -12,9 +12,9 @@
     *   **Jump (Hold)**: Engage thrusters to fly up rapidly (Levitation).
     *   **Sneak (Hold)**: Cut engines to drop down.
     *   **Neutral**: Hover in mid-air (Slow Falling).
-*   **Super Speed**:
-    *   **Hover Speed**: Speed VIII (8) for fast gliding.
-    *   **Boost Speed**: Speed XV (15) for supersonic travel while boosting.
+*   **Super Speed** (3x Enhanced):
+    *   **Hover Speed**: Speed XXIV (24) for ultra-fast gliding.
+    *   **Boost Speed**: Speed XLV (45) for hypersonic travel while boosting.
 *   **Visual Feedback**: Action bar messages and sound effects indicate flight status.
 
 ## 📦 Installation
