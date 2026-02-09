@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__filesystem__list_directory",
+      "mcp__filesystem__create_directory",
+      "Bash(powershell -Command \"Compress-Archive -Path ''BP'', ''RP'' -DestinationPath ''The_Cape_v9.mcaddon'' -Force\")",
+      "Bash(powershell:*)",
+      "Bash(dir:*)",
+      "mcp__filesystem__directory_tree"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "github",
+    "playwright",
+    "filesystem",
+    "context7",
+    "semgrep",
+    "repo-mode-launch"
+  ],
+  "enableAllProjectMcpServers": true
+}

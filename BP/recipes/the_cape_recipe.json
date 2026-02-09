@@ -1,0 +1,19 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "cape:the_cape_recipe"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            { "item": "minecraft:white_wool" },
+            { "item": "minecraft:white_wool" },
+            { "item": "minecraft:white_wool" },
+            { "item": "minecraft:string" }
+        ],
+        "result": {
+            "item": "cape:the_cape",
+            "count": 1
+        }
+    }
+}

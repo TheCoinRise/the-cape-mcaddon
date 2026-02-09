@@ -11,7 +11,7 @@
             "cape:flight_enabled": {
                 "minecraft:abilities": {
                     "walk_speed": 0.1,
-                    "fly_speed": 0.4,
+                    "fly_speed": 2.0,
                     "may_fly": true
                 },
                 "minecraft:can_fly": {

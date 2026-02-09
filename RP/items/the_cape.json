@@ -7,7 +7,32 @@
         },
         "components": {
             "minecraft:icon": "the_cape",
-            "minecraft:render_offsets": "apple"
+            "minecraft:render_offsets": {
+                "main_hand": {
+                    "first_person": {
+                        "position": [0, 0, 0],
+                        "rotation": [0, 0, 0],
+                        "scale": [0.075, 0.075, 0.075]
+                    },
+                    "third_person": {
+                        "position": [0, 0, 0],
+                        "rotation": [0, 0, 0],
+                        "scale": [0.075, 0.075, 0.075]
+                    }
+                },
+                "off_hand": {
+                    "first_person": {
+                        "position": [0, 0, 0],
+                        "rotation": [0, 0, 0],
+                        "scale": [0.075, 0.075, 0.075]
+                    },
+                    "third_person": {
+                        "position": [0, 0, 0],
+                        "rotation": [0, 0, 0],
+                        "scale": [0.075, 0.075, 0.075]
+                    }
+                }
+            }
         }
     }
 }
