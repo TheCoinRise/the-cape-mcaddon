@@ -13,7 +13,7 @@
     *   **Sneak (Hold)**: Cut engines to drop down.
     *   **Neutral**: Hover in mid-air (Slow Falling).
 *   **Super Speed** (3x Enhanced):
-    *   **Hover Speed**: Speed XXIV (24) for ultra-fast gliding.
+    *   **Hover Speed**: Speed XLV (45) for hypersonic gliding.
     *   **Boost Speed**: Speed XLV (45) for hypersonic travel while boosting.
 *   **Visual Feedback**: Action bar messages and sound effects indicate flight status.
 

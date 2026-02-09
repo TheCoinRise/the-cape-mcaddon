@@ -1,7 +1,7 @@
 import { world, system, EntityComponentTypes, EquipmentSlot } from "@minecraft/server";
 
 // Debug init
-world.sendMessage("§a[The Cape] Addon Script Loaded v9 (3x Super Speed)");
+world.sendMessage("§a[The Cape] Addon Script Loaded v10 (Hypersonic Speed)");
 
 system.runInterval(() => {
     for (const player of world.getAllPlayers()) {
@@ -56,7 +56,7 @@ function checkPlayer(player) {
         // Let's just give Speed 10 always. It's a superpower cape after all.
         // Wait, Speed 10 is very fast. Speed 4 is already fast.
         // Let's try Speed 8.
-        player.addEffect("speed", 20, { amplifier: 24, showParticles: false });
+        player.addEffect("speed", 20, { amplifier: 45, showParticles: false });
 
         if (isBoosting) {
             // BOOST UP (Levitation)
