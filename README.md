@@ -34,6 +34,25 @@ You can obtain the cape from the Creative Inventory (search for "Cape") or using
 /give @s cape:the_cape
 ```
 
+### Crafting Recipe
+Craft The Cape at a **Crafting Table** using the following ingredients (shapeless):
+
+| Ingredient | Quantity |
+| :--- | :---: |
+| White Wool | 3 |
+| String | 1 |
+
+```
+┌───┬───┬───┐
+│ 🧶│ 🧶│ 🧶│  (White Wool x3)
+├───┼───┼───┤
+│ 🪢│   │   │  (String x1)
+├───┼───┼───┤
+│   │   │   │
+└───┴───┴───┘
+```
+*Note: This is a shapeless recipe - ingredients can be placed in any slots.*
+
 ### Controls
 Simply hold the item in your **Main Hand** or **Off-Hand**.
 
